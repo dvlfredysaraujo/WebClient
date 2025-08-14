@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: WebClient
+server:
+  port: 8081
+remote:
+  base-url: https://fakestoreapi.com
+client:
+  connect-timeout-ms: 5000
+  response-timeout-ms: 5000
+  rw-timeout-seconds: 5
